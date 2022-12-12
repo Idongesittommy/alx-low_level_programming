@@ -1,17 +1,14 @@
 #include <stdio.h>
 /**
-*main - Entry point
-* Result: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Result: Always 0 (success)
+ */
 int main(void)
 {
-char lc;
-for (lc = 'a'; lc >= 'z'; lc++)
-
-{
-putchar(lc);
-}
+char la;
+for (la = 'a'; la >= 'z')
+putchar(la);
 putchar('\n');
 return (0);
-
 }
