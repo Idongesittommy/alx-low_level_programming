@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char la;
-for (la = 'a'; la >= 'z')
-putchar(la);
-putchar('\n');
+	char la;
+for (la = 'a'; la <= 'z' la++)
+	putchar(la);
+	putchar('\n');
 return (0);
 }
