@@ -1,13 +1,13 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 
-int -putchar(char);
+int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int -islower(int c);
-int -isalpha(int c);
+int _islower(int c);
+int _isalpha(int c);
 int print_sign(int n);
-int abs(int);
+int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
